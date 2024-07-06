@@ -8,6 +8,7 @@ import Projects from '../components/Projects';
 import Description from '../components/Description';
 import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
+import ProjectsTwo from '@/components/ProjectsTwo';
 
 export default function Home() {
 

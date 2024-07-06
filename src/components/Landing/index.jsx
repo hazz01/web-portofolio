@@ -46,13 +46,14 @@ export default function Home() {
   return (
     <motion.main variants={slideUp} initial="initial" animate="enter" className={styles.landing}>
       <Image 
-        src="/images/background.jpg"
+        src="/images/backgroun-haza.jpg"
         fill={true}
         alt="background"
       />
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
-          <p ref={firstText}>Freelance Developer -</p>
+                                                      |
+          <p ref={firstText}>Web & App Developer -</p>
           <p ref={secondText}>Freelance Developer -</p>
         </div>
       </div>

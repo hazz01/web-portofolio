@@ -2,42 +2,44 @@ import { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import styles from './style.module.scss';
 import Image from 'next/image';
+import ProjectsTwo from '../ProjectsTwo';
+
 
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: "c2.jpg"
+        src: "sertif_earth.jpg"
     },
     {
         color: "#d6d7dc",
-        src: "decimal.jpg"
+        src: "sertif_ara.jpg"
     },
     {
         color: "#e3e3e3",
-        src: "funny.jpg"
+        src: "sertif_digiup.jpg"
     },
     {
         color: "#21242b",
-        src: "google.jpg"
+        src: "sertif_uht.png"
     }
 ]
 
 const slider2 = [
     {
         color: "#d4e3ec",
-        src: "maven.jpg"
+        src: "sertif_digiup.jpg"
     },
     {
         color: "#e5e0e1",
-        src: "panda.jpg"
+        src: "sertif_telu.jpg"
     },
     {
         color: "#d7d4cf",
-        src: "powell.jpg"
+        src: "sertif_injection.jpg"
     },
     {
         color: "#e1dad6",
-        src: "wix.jpg"
+        src: "sertif_ionic.jpg"
     }
 ]
 
@@ -83,9 +85,11 @@ export default function index() {
                         })
                     }
                 </motion.div>
+                
                 <motion.div style={{height}} className={styles.circleContainer}>
                     <div className={styles.circle}></div>
                 </motion.div>
         </div>
+        
     )
 }

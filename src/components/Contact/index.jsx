@@ -23,7 +23,7 @@ export default function index() {
                             <Image 
                             fill={true}
                             alt={"image"}
-                            src={`/images/background.jpg`}
+                            src={`/images/profile-pict.png`}
                             />
                         </div>
                         <h2>Let's work</h2>
@@ -40,28 +40,28 @@ export default function index() {
                 </div>
                 <div className={styles.nav}>
                         <Rounded>
-                            <p>info@dennissnellenberg.com</p>
+                            <p>haza@grounded.org</p>
                         </Rounded>
                         <Rounded>
-                            <p>+31 6 27 84 74 30</p>
+                            <p>+62 896 230 848 81</p>
                         </Rounded>
                 </div>
                 <div className={styles.info}>
                     <div>
                         <span>
-                            <h3>Version</h3>
-                            <p>2022 © Edition</p>
+                            <p>Build With ♥ By Haza</p>
+                            <h3>Powered By Groundedlab.org</h3>
                         </span>
-                        <span>
+                        {/* <span>
                             <h3>Version</h3>
                             <p>11:49 PM GMT+2</p>
-                        </span>
+                        </span> */}
                     </div>
                     <div>
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <p>Awwwards</p>
+                                <p>Github</p>
                             </Magnetic>
                         </span>
                         <Magnetic>
