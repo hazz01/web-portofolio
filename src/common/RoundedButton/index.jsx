@@ -4,10 +4,10 @@ import styles from './style.module.scss';
 import gsap from 'gsap';
 import Magnetic from '../Magnetic';
 
-export default function index({children, backgroundColor="#455CE9", ...attributes}) {
+export default function Index({children, backgroundColor="#455CE9", ...attributes}) {
 
-  const circle = useRef(null);
-  let timeline = useRef(null);
+  const circle = useRef<HTMLInputElement>(null);
+  let timeline = useRef<HTMLInputElement>(null);
   let timeoutId = null;
   useEffect( () => {
     timeline.current = gsap.timeline({paused: true})
