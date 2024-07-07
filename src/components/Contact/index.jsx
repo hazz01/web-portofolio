@@ -14,6 +14,7 @@ export default function Index() {
     const x = useTransform(scrollYProgress, [0, 1], [0, 100])
     const y = useTransform(scrollYProgress, [0, 1], [-500, 0])
     const rotate = useTransform(scrollYProgress, [0, 1], [120, 90])
+
     return (
         <motion.div style={{y}} ref={container} className={styles.contact}>
             <div className={styles.body}>
@@ -45,12 +46,13 @@ export default function Index() {
                         <Rounded>
                             <p>+62 896 230 848 81</p>
                         </Rounded>
+                        
                 </div>
                 <div className={styles.info}>
                     <div>
                         <span>
                             <p>Build With ♥ By Haza</p>
-                            <h3>Powered By Groundedlab.org</h3>
+                            <h3>Powered By Groundedlab.or.id</h3>
                         </span>
                         {/* <span>
                             <h3>Version</h3>
