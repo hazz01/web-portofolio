@@ -40,16 +40,16 @@ export default function Home() {
 
   const [modal, setModal] = useState({active: false, index: 0})
   const { active, index } = modal;
-  const modalContainer = useRef<HTMLInputElement>(null);
-  const cursor = useRef<HTMLInputElement>(null);
-  const cursorLabel = useRef<HTMLInputElement>(null);
+  const modalContainer = useRef(null);
+  const cursor = useRef(null);
+  const cursorLabel = useRef(null);
 
-  let xMoveContainer = useRef<HTMLInputElement>(null);
-  let yMoveContainer = useRef<HTMLInputElement>(null);
-  let xMoveCursor = useRef<HTMLInputElement>(null);
-  let yMoveCursor = useRef<HTMLInputElement>(null);
-  let xMoveCursorLabel = useRef<HTMLInputElement>(null);
-  let yMoveCursorLabel = useRef<HTMLInputElement>(null);
+  let xMoveContainer = useRef(null);
+  let yMoveContainer = useRef(null);
+  let xMoveCursor = useRef(null);
+  let yMoveCursor = useRef(null);
+  let xMoveCursorLabel = useRef(null);
+  let yMoveCursorLabel = useRef(null);
 
   useEffect( () => {
     //Move Container

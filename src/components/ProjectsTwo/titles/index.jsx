@@ -17,7 +17,7 @@ export default function Index({data, setSelectedProject}) {
 function Title({data, setSelectedProject}) {
 
     const { title, speed, i } = data;
-    const container = useRef<HTMLInputElement>(null);
+    const container = useRef(null);
 
     const { scrollYProgress } = useScroll({
         target: container,

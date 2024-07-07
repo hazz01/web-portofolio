@@ -45,7 +45,7 @@ const slider2 = [
 
 export default function Index() {
 
-    const container = useRef<HTMLInputElement>(null);
+    const container = useRef(null);
     const { scrollYProgress } = useScroll({
         target: container,
         offset: ["start end", "end start"]

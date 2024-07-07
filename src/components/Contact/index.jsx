@@ -1,3 +1,4 @@
+"use client"
 import styles from './style.module.scss';
 import Image from 'next/image';
 import Rounded from '../../common/RoundedButton';
@@ -6,7 +7,7 @@ import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
 import Magnetic from '../../common/Magnetic';
 
 export default function Index() {
-    const container = useRef<HTMLInputElement>(null);
+    const container = useRef(null);
     const { scrollYProgress } = useScroll({
         target: container,
         offset: ["start end", "end end"]

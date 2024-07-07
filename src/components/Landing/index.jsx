@@ -9,9 +9,9 @@ import { motion } from 'framer-motion';
 
 export default function Home() {
 
-  const firstText = useRef<HTMLInputElement>(null);
-  const secondText = useRef<HTMLInputElement>(null);
-  const slider = useRef<HTMLInputElement>(null);
+  const firstText = useRef(null);
+  const secondText = useRef(null);
+  const slider = useRef(null);
   let xPercent = 0;
   let direction = -1;
 
