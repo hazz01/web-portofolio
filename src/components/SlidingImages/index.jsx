@@ -43,7 +43,7 @@ const slider2 = [
     }
 ]
 
-export default function Index() {
+export default function SlidingImages() {
 
     const container = useRef(null);
     const { scrollYProgress } = useScroll({

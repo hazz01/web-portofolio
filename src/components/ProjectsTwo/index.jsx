@@ -37,7 +37,7 @@ const data = [
     }
 ]
 
-export default function Projects() {
+export default function ProjectsTwo() {
     const [selectedProject, setSelectedProject] = useState(null)
     return (
         <div className={styles.container}>
