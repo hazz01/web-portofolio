@@ -10,10 +10,10 @@ import Rounded from '../../common/RoundedButton';
 import Magnetic from '../../common/Magnetic';
 
 export default function index() {
-    const header = useRef(null);
+    const header = useRef<HTMLInputElement>(null);
     const [isActive, setIsActive] = useState(false);
     const pathname = usePathname();
-    const button = useRef(null);
+    const button = useRef<HTMLInputElement>(null);
 
     useEffect( () => {
       if(isActive) setIsActive(false)

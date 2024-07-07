@@ -6,7 +6,7 @@ import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
 import Magnetic from '../../common/Magnetic';
 
 export default function index() {
-    const container = useRef(null);
+    const container = useRef<HTMLInputElement>(null);
     const { scrollYProgress } = useScroll({
         target: container,
         offset: ["start end", "end end"]

@@ -7,7 +7,7 @@ import { motion } from 'framer-motion-3d';
 
 export default function earth() {
 
-    const scene = useRef(null);
+    const scene = useRef<HTMLInputElement>(null);
     const { scrollYProgress } = useScroll({
         target: scene,
         offset: ['start end', 'end start']

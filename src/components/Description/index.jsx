@@ -6,7 +6,7 @@ import Rounded from '../../common/RoundedButton';
 export default function index() {
 
     const phrase = "Skilled in web and IoT development, data analysis, and digital marketing. Experienced in Android and full-stack web development. Demonstrated success in innovative projects and agribusiness.";
-    const description = useRef(null);
+    const description = useRef<HTMLInputElement>(null);
     const isInView = useInView(description)
     return (
         <div ref={description} className={styles.description}>
